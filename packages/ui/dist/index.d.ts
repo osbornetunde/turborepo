@@ -1,6 +1,11 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
-declare const Button: () => react_jsx_runtime.JSX.Element;
+interface Props {
+    primary?: boolean;
+    size?: 'small' | 'large';
+    label?: string;
+}
+declare const Button: ({ primary, label, size, }: Props) => react_jsx_runtime.JSX.Element;
 
 declare const Text: ({ value }: {
     value: string;

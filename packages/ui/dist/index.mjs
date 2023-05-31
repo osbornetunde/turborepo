@@ -1,5 +1,5 @@
 import { jsx } from 'react/jsx-runtime';
 
-var d=()=>jsx("button",{className:"bg-white text-sm text-red-500 border border-red-800",children:"Click mes"});var b=({value:t})=>jsx("div",{className:"text-yellow-300",children:t});
+var n=({primary:e=!1,label:t="Click mes",size:r="small"})=>jsx("button",{className:`bg-green-800 ${r==="small"?"text-sm":"text-lg"} ${e?"text-brandblue":"text-red"} border border-red-800`,children:t});var p=({value:e})=>jsx("div",{className:"text-yellow-300",children:e});
 
-export { d as Button, b as Text };
+export { n as Button, p as Text };

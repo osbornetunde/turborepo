@@ -2,7 +2,7 @@
 
 var jsxRuntime = require('react/jsx-runtime');
 
-var d=()=>jsxRuntime.jsx("button",{className:"bg-white text-sm text-red-500 border border-red-800",children:"Click mes"});var b=({value:t})=>jsxRuntime.jsx("div",{className:"text-yellow-300",children:t});
+var n=({primary:e=!1,label:t="Click mes",size:r="small"})=>jsxRuntime.jsx("button",{className:`bg-green-800 ${r==="small"?"text-sm":"text-lg"} ${e?"text-brandblue":"text-red"} border border-red-800`,children:t});var p=({value:e})=>jsxRuntime.jsx("div",{className:"text-yellow-300",children:e});
 
-exports.Button = d;
-exports.Text = b;
+exports.Button = n;
+exports.Text = p;
