@@ -1,0 +1,19 @@
+$ TIMING=1 eslint . --fix
+
+/Users/osborne/Documents/tutorial/turbo-repo-learn/packages/ui/index.tsx
+  1:1  warning  This rule can't verify that `export *` only export components  react-refresh/only-export-components
+
+✖ 1 problem (0 errors, 1 warning)
+
+Rule                                 | Time (ms) | Relative
+:------------------------------------|----------:|--------:
+react/display-name                   |     4.159 |    25.6%
+@typescript-eslint/no-redeclare      |     2.367 |    14.5%
+@typescript-eslint/no-unused-vars    |     1.540 |     9.5%
+react-refresh/only-export-components |     0.410 |     2.5%
+flowtype/define-flow-type            |     0.407 |     2.5%
+react/require-render-return          |     0.392 |     2.4%
+react/no-direct-mutation-state       |     0.328 |     2.0%
+react/prop-types                     |     0.277 |     1.7%
+react/no-typos                       |     0.243 |     1.5%
+@typescript-eslint/no-empty-function |     0.240 |     1.5%
