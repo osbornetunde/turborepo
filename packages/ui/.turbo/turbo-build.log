@@ -1,10 +1,21 @@
-$ tsup ./index.tsx --format esm,cjs --external react
-CLI Building entry: ./index.tsx
+$ tsup index.tsx --format esm,cjs --external react
+CLI Building entry: index.tsx
+CLI Using tsconfig: tsconfig.json
 CLI tsup v6.7.0
-CLI Target: node14
+CLI Using tsup config: /Users/osborne/Documents/tutorial/turbo-repo-learn/packages/ui/tsup.config.ts
+CLI Target: es6
+CLI Cleaning output folder
 ESM Build start
 CJS Build start
-ESM dist/index.mjs 120.00 B
-ESM ⚡️ Build success in 19ms
-CJS dist/index.js 1.09 KB
-CJS ⚡️ Build success in 19ms
+
+warn - No utility classes were detected in your source files. If this is unexpected, double-check the `content` option in your Tailwind CSS configuration.
+warn - https://tailwindcss.com/docs/content-configuration
+DTS Build start
+ESM dist/index.mjs 376.00 B
+ESM dist/index.css 4.29 KB
+ESM ⚡️ Build success in 364ms
+CJS dist/index.css 4.29 KB
+CJS dist/index.js  422.00 B
+CJS ⚡️ Build success in 364ms
+DTS ⚡️ Build success in 993ms
+DTS dist/index.d.ts 405.00 B
