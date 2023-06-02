@@ -1,2 +1,16 @@
 warning package.json: No license field
 $ eslint . --fix --max-warnings 0
+
+/Users/osborne/Documents/tutorial/turbo-repo-learn/apps/admin-ssr/renderer/_default.page.server.tsx
+  13:9  error  `pageHtml` is not a recommended name for `render` returned value. Instead, you should destructure it, or name it using one of: `view`, or `utils`  testing-library/render-result-naming-convention
+
+/Users/osborne/Documents/tutorial/turbo-repo-learn/apps/admin-ssr/server/index.ts
+  33:11  error  `pageContext` is not a recommended name for `render` returned value. Instead, you should destructure it, or name it using one of: `view`, or `utils`  testing-library/render-result-naming-convention
+
+/Users/osborne/Documents/tutorial/turbo-repo-learn/apps/admin-ssr/test.setup.ts
+  1:7  warning  'testSetup' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 3 problems (2 errors, 1 warning)
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

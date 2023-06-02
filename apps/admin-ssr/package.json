@@ -7,7 +7,8 @@
     "build": "vite build",
     "server": "ts-node ./server/index.ts",
     "server:prod": "cross-env NODE_ENV=production ts-node ./server/index.ts",
-    "lint": "eslint . --fix --max-warnings 0"
+    "lint": "eslint . --fix --max-warnings 0",
+    "test": "vitest --run"
   },
   "dependencies": {
     "@types/compression": "^1.7.2",
@@ -29,6 +30,9 @@
     "typescript": "^4.9.4",
     "vite": "^4.0.3",
     "vite-plugin-ssr": "^0.4.131"
+  },
+  "devDependencies": {
+    "test-config": "*"
   },
   "type": "module"
 }

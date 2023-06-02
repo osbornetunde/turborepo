@@ -1,0 +1,21 @@
+{
+  "name": "test-config",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "files": [
+    "testConfig.js",
+    "test.setup.ts"
+  ],
+  "exports": {
+    "./testConfig": "./testConfig.js",
+    "./test.setup": "./test.setup.ts"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "jsdom": "^22.1.0",
+    "vitest": "^0.31.4"
+  }
+}
