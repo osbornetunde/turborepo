@@ -7,8 +7,9 @@ interface Props {
     primary?: boolean;
     size?: 'small' | 'large';
     label?: string;
+    backgroundColor?: string;
 }
-declare const Button: ({ primary, label, size, }: Props) => react_jsx_runtime.JSX.Element;
+declare const Button: ({ primary, label, size, backgroundColor, }: Props) => react_jsx_runtime.JSX.Element;
 
 declare const Text: ({ value }: {
     value: string;
